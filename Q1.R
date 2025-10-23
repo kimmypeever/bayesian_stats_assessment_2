@@ -1,5 +1,5 @@
 # -----------------------------
-# Bayesian analysis of hourly birth rates
+# Q1 Bayesian analysis of hourly birth rates
 # -----------------------------
 
 # Load in packages
@@ -91,3 +91,4 @@ ggplot(data.frame(lambda_vals, posterior_density), aes(x = lambda_vals, y = post
     y = "Density"
   ) +
   theme_minimal(base_size = 13)
+
